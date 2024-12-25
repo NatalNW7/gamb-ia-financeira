@@ -1,0 +1,12 @@
+[project]
+name = "gamb-ia-financeira"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.13"
+dependencies = [
+    "langchain-core>=0.3.28",
+    "langchain-openai>=0.2.14",
+    "ofxparse>=0.21",
+    "pandas>=2.2.3",
+]
