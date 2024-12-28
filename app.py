@@ -39,7 +39,7 @@ Seu trabalho é escolher uma categoria adequada para cada item de lançamento fi
 
 Para cada item que eu te enviar ecolha uma dentre as seguinte categorias da lista de categorias abaixo:
 
-       CATEGORIAS             -               DESCRIÇÃO                                                                                                   
+       CATEGORIAS                            DESCRIÇÃO                                                                                                   
 Receitas                      - Tudo que for entrada e/ou transferencia recebida.                                                                             
 Investimentos                 - Tudo que for deposito em corretoras finaceiras.                                                                           
 Esportes                      - Tudo que for compra e/ou transferências para lojas de artigos de esportes.                                                        
@@ -56,7 +56,7 @@ Transporte                    - Tudo que for compra e/ou transferências para bi
 Vestuario                     - Tudo que for compra e/ou transferências para lojas de artigos de roupas.                                                  
 Moradia                       - Valores referentes a alugel, conta de luz, agua e etc.                                                                    
 Telefone                      - Tudo que for compra e/ou transferências para colocar creditos em chip de celular, como Tim e Claro.                       
-Transferenciap para terceiros  - Tudo que for transferência para outras pessoas fisicas.                                                                   
+Transferencia para terceiros  - Tudo que for transferência para outras pessoas fisicas.                                                                   
 Categoria Desconhecida        - Tudo que não for possivel categorizar.                                                                                    
 
 Agora vamos iniciar a categorização dos itens de lançamento financeiro.
@@ -69,7 +69,7 @@ Responda apenas com a categoria e nada alem do que apenas a categoria.
 """
 
 prompt = PromptTemplate.from_template(template=template)
-url = "http://0.0.0.0:23333/v1"
+url = "http://195.29.196.251:41027/v1"
 client = OpenAI(api_key='not-needed', base_url=url)
 model = client.models.list().data[0].id
 
