@@ -9,4 +9,5 @@ dependencies = [
     "langchain-openai>=0.2.14",
     "ofxparse>=0.21",
     "pandas>=2.2.3",
+    "scikit-learn>=1.6.0",
 ]
